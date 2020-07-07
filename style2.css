@@ -1,0 +1,30 @@
+body, html{height: 100%; margin: 0;font-size: 16px; font-family: "Lato", sans-serif; font-weight: 400;line-height: 1.8em;color: grey;}
+
+.pimg1, .pimg2, .pimg3{position: relative;opacity: 0.70; background-position: center; background-size: cover;background-repeat: no-repeat;
+	background-attachment: fixed;
+/* if this section is on fixed, then we will have the effect of parallax while moving down. If on scroll, then it will be normal while scrolling
+*/}
+
+.pimg1{background-image:url("green-grasses-on-sahara-desert-1001435.jpg");
+min-height: 100%;}
+
+.pimg2{background-image:url("low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg");
+min-height: 400px;}
+
+.pimg3{background-image:url("gray-double-bell-clock-1037993.jpg");
+min-height: 400px;}
+
+.section{text-align: center;padding: 50px 80px;
+}
+
+.section-light{background-color: pink; color: black;}
+
+.section-dark{background-color: brown; color: pink;
+/* Provides stylish sectional blocks
+*/}
+
+.ptext{position: absolute;top: 50%;width: 100%;text-align: center;color: black;font-size: 27px; letter-spacing: 8px; text-transform: uppercase;}
+
+.ptext .border{padding:20px ;background-color: grey; color: white;}
+
+.ptext .border .trans{background-color: transparent;}
